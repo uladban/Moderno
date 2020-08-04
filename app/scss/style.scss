@@ -51,12 +51,9 @@
         @include f500;
     }
 }
-
 // End Header
-
 // Start search
 .search {
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,7 +99,6 @@
                 color: #aebcc4;
                 @include f500;
             }
-           
         }
         button {
             position: absolute;
@@ -113,7 +109,7 @@
         }
     }
 }
-//  enв search
+//  en search
 // Start products
 .products {
     padding: 110px 0;
@@ -338,5 +334,42 @@
     }
 }
 
-
 // end advantages
+// start author
+.author {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+&__box{
+    max-width: 620px;
+    width: 100%;
+    min-height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $green;
+}
+&__title{
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    max-width: 270px;
+    margin-right: 45px;
+    span{
+        @include f700;
+    }
+}
+&__link{
+    font-size: 18px;
+    line-height: 36px;
+    padding: 14px 40px;
+    background-color: #fff;
+}
+}
+
+
+// end author
