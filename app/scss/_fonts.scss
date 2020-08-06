@@ -7,11 +7,11 @@
 }
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?6yuj8p');
-    src:  url('../fonts/icomoon.eot?6yuj8p#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?6yuj8p') format('truetype'),
-      url('../fonts/icomoon.woff?6yuj8p') format('woff'),
-      url('../fonts/icomoon.svg?6yuj8p#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot');
+    src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf') format('truetype'),
+      url('./fonts/icomoon.woff') format('woff'),
+      url('./fonts/icomoon.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -20,7 +20,7 @@
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
+    
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -32,25 +32,58 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-map-marker:before {
-    content: "\f041";
-  }
-  .icon-shopping-cart:before {
-    content: "\f07a";
-  }
-  .icon-phone:before {
-    content: "\f095";
-  }
-  .icon-bolt:before {
-    content: "\f0e7";
-  }
-  .icon-flash:before {
-    content: "\f0e7";
-  }
-  .icon-angle-right:before {
-    content: "\f105";
-  }
-  .icon-location-arrow:before {
-    content: "\f124";
-  }
   
+.icon-search:before {
+  content: "\f002";
+}
+.icon-th-large:before {
+  content: "\f009";
+}
+.icon-th-list:before {
+  content: "\f00b";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-sort:before {
+  content: "\f0dc";
+}
+.icon-unsorted:before {
+  content: "\f0dc";
+}
+.icon-sort-desc:before {
+  content: "\f0dd";
+}
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+.icon-sort-asc:before {
+  content: "\f0de";
+}
+.icon-sort-up:before {
+  content: "\f0de";
+}
+.icon-bolt:before {
+  content: "\f0e7";
+}
+.icon-flash:before {
+  content: "\f0e7";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-location-arrow:before {
+  content: "\f124";
+}
+.icon-sort-amount-asc:before {
+  content: "\f160";
+}
+.icon-sort-amount-desc:before {
+  content: "\f161";
+}
