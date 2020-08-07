@@ -742,6 +742,7 @@
         background-color: transparent;
         border: none;
         color: #90a4ae;
+        outline: none;
         &.active{
             color: $green;
         }
@@ -767,6 +768,7 @@
     .product__item{
         max-width: 270px;
         background-color: #fff;
+        transition: all .5s;
         
     }
     .product__item-img{
@@ -797,6 +799,7 @@
 }
 .pagination{
     .pagination__list{
+        margin-bottom: 100px;
         li{
             display: inline-block;
             & + li {
@@ -819,6 +822,87 @@
                 background-color: $red;
                 color: #fff;
             }
+        }
+    }
+}
+.prouct__item-text{
+    display: none;
+}
+.product__item-price{
+    span{
+        display: none;
+    }
+}
+.product__item-list{
+    display: none;
+     .icon-comment-o,
+     .icon-heart-o{
+       display: inline-block;
+       font-size: 12px;
+       color: #b0bec5;
+       padding-left: 50px;
+       border-left: 1px solid #aeb4bb;
+       position: relative;
+       span{
+        color: $bg;
+        @include f500;
+        }  
+        &::before {
+            font-size: 16px;
+            color: $green;
+            position: absolute;
+            left: 20px;
+            top: 0;
+        }
+    }
+    .icon-comment-o{
+        padding-right: 30px;
+        &::before{
+            top: -2px;
+        }
+    }
+}   
+.product__item{
+    &.list{
+        max-width: 100%;
+        .product__item-img{
+            width: 240px;
+            min-height: 100%;
+            float: left;
+        }
+        .prouct__item-text{
+            display: block;
+            font-size: 14px;
+            color: #70838d;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        .product__item-name{
+            max-width: 480px;
+        }
+        .product__item-price{
+            font-size: 30px;
+            @include f700;
+            padding-top: 30px;
+            text-align: right;
+            span{
+                display: block;
+                font-size: 13px;
+                font-weight: normal;
+                color: #aeb4bb;
+                margin-top: 15px;
+                // text-align: right;
+            }
+        }
+        .product__item-content{
+            padding: 20px;
+        }
+        .product__item-list{
+            display: block;
+        }
+        .product__item-star{
+            margin-left: auto;
+            margin-right: 30px;
         }
     }
 }
