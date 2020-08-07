@@ -3,7 +3,7 @@ $(function(){
 
     $(".rate-star").rateYo({
         starWidth: "12px",
-        rating: 4.5,
+        rating: 5,
         readOnly: true,
         halfStar: true
       });
