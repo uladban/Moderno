@@ -33,6 +33,9 @@
   }
   
   
+  .icon-asterisk:before {
+    content: "\f069";
+  }
   .icon-search:before {
     content: "\f002";
   }
@@ -42,8 +45,8 @@
   .icon-user:before {
     content: "\f007";
   }
-  .icon-th-large:before {
-    content: "\f009";
+  .icon-th:before {
+    content: "\f00a";
   }
   .icon-th-list:before {
     content: "\f00b";
@@ -57,9 +60,6 @@
   .icon-times:before {
     content: "\f00d";
   }
-  .icon-lock:before {
-    content: "\f023";
-  }
   .icon-map-marker:before {
     content: "\f041";
   }
@@ -68,6 +68,21 @@
   }
   .icon-pencil-square-o:before {
     content: "\f044";
+  }
+  .icon-share-square-o:before {
+    content: "\f045";
+  }
+  .icon-chevron-left:before {
+    content: "\f053";
+  }
+  .icon-chevron-right:before {
+    content: "\f054";
+  }
+  .icon-chevron-up:before {
+    content: "\f077";
+  }
+  .icon-chevron-down:before {
+    content: "\f078";
   }
   .icon-shopping-cart:before {
     content: "\f07a";
@@ -90,14 +105,26 @@
   .icon-bell-o:before {
     content: "\f0a2";
   }
+  .icon-briefcase:before {
+    content: "\f0b1";
+  }
   .icon-group:before {
     content: "\f0c0";
   }
   .icon-users:before {
     content: "\f0c0";
   }
+  .icon-caret-down:before {
+    content: "\f0d7";
+  }
   .icon-caret-up:before {
     content: "\f0d8";
+  }
+  .icon-caret-left:before {
+    content: "\f0d9";
+  }
+  .icon-caret-right:before {
+    content: "\f0da";
   }
   .icon-sort:before {
     content: "\f0dc";
@@ -123,8 +150,14 @@
   .icon-suitcase:before {
     content: "\f0f2";
   }
+  .icon-angle-left:before {
+    content: "\f104";
+  }
   .icon-angle-right:before {
     content: "\f105";
+  }
+  .icon-angle-up:before {
+    content: "\f106";
   }
   .icon-angle-down:before {
     content: "\f107";
@@ -159,13 +192,23 @@
   .icon-sort-amount-desc:before {
     content: "\f161";
   }
+  .icon-instagram:before {
+    content: "\f16d";
+  }
   .icon-foursquare:before {
     content: "\f180";
   }
   .icon-pagelines:before {
     content: "\f18c";
   }
+  .icon-paper-plane:before {
+    content: "\f1d8";
+  }
+  .icon-send:before {
+    content: "\f1d8";
+  }
   .icon-pinterest-p:before {
     content: "\f231";
   }
+  
   
