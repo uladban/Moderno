@@ -1754,7 +1754,7 @@
       color: #7a7a7a;
     }
   }
-  button{
+  .contact__form-button{
     border: none;
     background-color: $green;
     font-size: 16px;
@@ -1763,8 +1763,10 @@
     @include f700;
     color: #fff;
     padding: 20px 35px;
-    width: 190px;    
+    width: 190px;   
+    cursor: pointer; 
   }
+  
 }
 // end Contact US
 //  start Settings
@@ -1834,7 +1836,8 @@
   align-items: center;
   label{
     color: #444444;
-    width: 260px;
+    max-width: 260px;
+    width: 100%;
   }
   input{
     max-width: 540px;
@@ -1853,14 +1856,16 @@
     background-color: #f9f9f9;
     border: 1px solid #dedede;
   }
-  button{
-    background-color: $green;
-    color: #fff;
-    border: none;
-    @include f500;
-    text-align: center;
-    padding: 15px 30px;
-  }
+  
+}
+button{
+  background-color: $green;
+  color: #fff;
+  border: none;
+  @include f500;
+  text-align: center;
+  padding: 15px 30px;
+  margin-left: 260px;
 }
 // end settings
 // start profile
@@ -1932,6 +1937,7 @@
 }
 .profile__aside-btn{
   margin-bottom: 13px;
+  text-align: center;
 }
 .profile__aside-message{
   margin-bottom: 17px;
@@ -1942,14 +1948,13 @@
   padding: 18px 10px;
   @include f500;
   background-color: $text;
-  padding-left: 90px;
   box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
   position: relative;
   &::before{
     position: absolute;
     content: "\f003";
     font-family: 'icomoon';
-    left: 60px;
+    left: 50px;
     top: 17px;
   }
 }
@@ -2003,9 +2008,6 @@
     color: $bg;
     
   }
-}
-.profile-settings{
-
 }
 .personal-box{
   background-color: #fff;
@@ -2079,7 +2081,7 @@
   border-bottom: 1px solid #d7d7d7;
   margin-bottom: 40px;
 }
-.contact__inner-content{
+.upload__inner-content{
   margin-bottom: 30px;
   padding-left: 45px;
   padding-right: 50px;
@@ -2295,7 +2297,7 @@ input[type="file"]{
   padding-bottom: 35px;
   
 }
-.witdrawals__content-item{
+.withdrawals__content-item{
   display: flex;
   width: 100%;
   height: 42px;
